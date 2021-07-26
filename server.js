@@ -1,4 +1,4 @@
-require ('dotenv').config()
+require ('dotenv').config();
 const express = require('express');
 const mongoode = require('mongoose');
 const cors = require('cors');
@@ -14,7 +14,7 @@ app.use(fileUpload({
     useTempFiles: true
 }))
 
-
-
 //connect to mongo db
+
+
 
